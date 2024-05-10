@@ -1,21 +1,17 @@
-import java.util.Scanner;
+import java.util.Scanner;//importe a biblioteca para escanear a entrada de informacoes 
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Digite o nome do aluno:");
-        String nome = sc.nextLine();
-        System.out.println("Informe a idade do aluno:");
-        int idade = sc.nextInt();
+        Scanner sc = new Scanner(System.in);//configurando a entrada de um valor
+        System.out.println("Digite o nome do aluno:");//instrucao solicitando ao usuario a informacao desejada
+        String nome = sc.nextLine();//recebendo valor nome utilizando o scanner criado e incluindo na variavel nome
+        System.out.println("Informe a idade do aluno:");//instrucao solicitando ao usuario a informacao desejada
+        int idade = sc.nextInt();//recebendo valor idade utilizando o scanner criado e incluindo na variavel idade
 
-        System.out.println("aluno: " + nome + "\nidade: " + idade);
-        System.out.println("vamos contar até "+idade);
-        for (int i = 1; i <= idade; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println(i);
+        System.out.println("aluno: " + nome + "\nidade: " + idade);//informando o valor recebido
+        System.out.println("vamos contar até "+idade);//instrucao informa o inicio da contagem
+        for (int i = 1; i <= idade; i++) {//instrucao ao programa com parametros para contagem
+            System.out.println(i);//imprime a contagem na tela do usuario
         }
     }
 }
