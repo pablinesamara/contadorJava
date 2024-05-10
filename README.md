@@ -7,3 +7,4 @@
 <p>5 em seguida imprime/solicita e armazena também a variável idade</p>
 <p>6 Informa que realizará a contagem até o valor informado como idade
 <p>7 utilizando o controle de fluxo(For) realiza a contagem de variável i que recebe 1 até o valor informado pelo usuário como idade.</p>
+<img src="https://github.com/pablinesamara/contadorJava/blob/main/ContadorJava.png">
